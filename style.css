@@ -21,7 +21,7 @@
 }
 .hero-title{
     margin: 25px 0;
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: bold;
 }
 .title-color-orange{
@@ -31,7 +31,7 @@
     color: skyblue;
 }
 .hero-description{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 .hero-btn{
@@ -42,8 +42,51 @@
     border: none;
     border-radius: 10px;
 }
-
-
+/* -------------- Hero Section End ------------- */
+.class-section{
+    margin: 50px 150px;
+    text-align: center;
+    background-image: url(assets/bg.png);
+   
+    background-position: center;
+}
+.class-section > h3{
+    font-size: 2.75rem;
+    font-weight: bold;
+}
+.class-box{
+    display: flex;
+    gap: 50px;
+}
+.card{
+    padding: 50px;
+    
+    border-radius: 20px;
+}
+.card1{
+    background-image: linear-gradient(rgb(182, 234, 255), white);
+}
+.card2{
+    background-image: linear-gradient(rgb(255, 234, 194),white);
+}
+.card3{
+    background-image: linear-gradient(rgb(255, 174, 255), white);
+}
+.card h4{
+    font-size: 1.5rem;
+}
+.card1 a{
+    color: skyblue;
+    text-decoration: none;
+}
+.card2 a{
+    color: orange;
+    text-decoration: none;
+}
+.card3 a{
+    color: purple;
+    text-decoration: none;
+}
 
 /* ---------- Small Device ----------- */
 @media screen and (max-width: 576px){
@@ -59,9 +102,23 @@
     .hero-box2{
         margin: 100px;
     }
+    .hero-box2 img{
+        width: 400px;
+    }
     .hero-title{
         /* margin: 25px 0; */
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: bold;
     }
+    /* -------------- Hero Section End ------------- */
+    .class-section{
+        margin: 50px 10px;
+    }
+    .class-box{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+
 }
