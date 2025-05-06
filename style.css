@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-box1{
+    width: 50%; 
+    /* margin-right: 300px; */
+}
+.hero-section div{
+    /* width: 50%; */
+}
+.hero-title{
+    margin: 25px 0;
+    font-size: 56px;
+    font-weight: bold;
+}
+.title-color-orange{
+    color: orangered;
+}
+.title-color-skyblue{
+    color: skyblue;
+}
+.hero-description{
+    font-size: 20px;
+    font-weight: 400;
+}
+.hero-btn{
+    padding: 20px 50px;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+/* ---------- Small Device ----------- */
+@media screen and (max-width: 576px){
+    .hero-section{
+        flex-direction: column-reverse; 
+        justify-content: center;
+        text-align: center;
+    }
+    .hero-box1{
+        width: 100%; 
+        /* margin-right: 300px; */
+    }
+    .hero-box2{
+        margin: 100px;
+    }
+    .hero-title{
+        /* margin: 25px 0; */
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
